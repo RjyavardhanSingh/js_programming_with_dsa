@@ -6,8 +6,8 @@ let rows = n;
 
 for(let i = 1; i <= rows; i++){
    
-    for(let j = 1; j <= (rows - i + 1); j++){
-        process.stdout.write("*");
+    for(let j = 1; j <= rows; j++){
+        process.stdout.write("* ");
     }
     console.log();
 }
