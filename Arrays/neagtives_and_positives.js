@@ -1,6 +1,6 @@
-// place all zeros in the start of the the array and all ones in the end of the array
+// place all -ve numbers in the start of the the array and all +ve numbers in the end of the array
 
-let arr = [1,1,1,1,0,0,0,0];
+let arr = [1, -2, 3,4,6,-3,-20, 0];
 ones_and_zeros(arr);
 
 function ones_and_zeros(arr) {
