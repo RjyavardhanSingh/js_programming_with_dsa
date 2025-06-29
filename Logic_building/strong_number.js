@@ -1,3 +1,4 @@
+let prompt = require("prompt-sync")();
 let n = Number(prompt("Please enter a number: "));
 
 console.log(strong(n)?"Number is Strong":"Number is not strong")

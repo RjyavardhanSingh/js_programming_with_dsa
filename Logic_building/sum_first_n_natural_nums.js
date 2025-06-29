@@ -1,3 +1,4 @@
+let prompt = require("prompt-sync")();
 let n = Number (prompt("Please enter an number: "));
 let sum = 0;
 
